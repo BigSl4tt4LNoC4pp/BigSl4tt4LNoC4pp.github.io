@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: hsl(320, 100%, 80%);
-  --bs-link-hover-color: hsl(320, 100%, 70%);
+  --bs-link-hover-color: #ff66cc;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10939,7 +10939,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #ff66cc;
 }
 
 .dev-icons {

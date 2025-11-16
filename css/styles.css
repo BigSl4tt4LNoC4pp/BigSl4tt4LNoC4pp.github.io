@@ -10972,3 +10972,20 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* 影片和图片间距 */
+#visual iframe {
+  margin-bottom: 2rem;
+}
+
+#portfolio img {
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* 确保最后一个元素没有底部间距 */
+#visual iframe:last-child,
+#portfolio img:last-child {
+  margin-bottom: 0;
+}
